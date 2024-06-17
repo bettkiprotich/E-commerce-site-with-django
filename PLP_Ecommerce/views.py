@@ -9,3 +9,6 @@ def product_list(request):
         'products':products
     }
     return render(request,'Ecommerce/product_list.html',context)
+
+def product_details(request):
+    pass
